@@ -21,8 +21,18 @@
 
 
 
-let isLoggedIn = 1
+let isLoggedIn = 44
 
 let booleanLogeedIn = Boolean(isLoggedIn)
-console.log(booleanLogeedIn);
+// console.log(booleanLogeedIn);
 
+// 1 => true; 0 => false
+// "" => false
+// "hitesh" => true
+
+
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
