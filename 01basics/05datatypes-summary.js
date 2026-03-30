@@ -1,41 +1,37 @@
-// data has two data type 
+//  Primitive
 
-// primitive
-// 7 types of primitive : string , number , boolean , null , undefined , symbol ,  
+//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
+const score = 100
+const scoreValue = 100.3
 
-// const score = 100
-// const scoreValue = 100.3
+const isLoggedIn = false
+const outsideTemp = null
+let userEmail;
 
-// const isLoggedIn = false
-// const outSideTemp = null
-// let userEmail;
+const id = Symbol('123')
+const anotherId = Symbol('123')
 
-const id = Symbol("123")
-const anotherId = Symbol("123")
-console.log(id === anotherId)
+console.log(id === anotherId);
 
-
-
-// const bigNumber = 4362791639323n
-
-// Refrence is called (Nonprimiritive)
+// const bigNumber = 3456543576654356754n
 
 
-const heros = ["yaseen , mursaleen ,ali"]
 
-// let myObj{
-//     name: "defaukt",
-//     age = 33,
-// }
+// Reference (Non primitive)
 
-const myFunction funnction(){
-    console.log("hello world");
-    
+// Array, Objects, Functions
+
+const heros = ["shaktiman", "naagraj", "doga"];
+let myObj = {
+    name: "hitesh",
+    age: 22,
 }
 
-// Array , objects , Functions
+const myFunction = function(){
+    console.log("Hello world");
+}
 
-console.log(typeof bigNumber);
+console.log(typeof outsideTemp);
 
-
+// https://262.ecma-international.org/5.1/#sec-11.4.3
